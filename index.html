@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta name="theme-color" content="#2b1738" />
+    <title>Anushka's Birthday Montage</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: ui-rounded, "SF Pro Rounded", "Avenir Next", system-ui, sans-serif;
+        background: #170d20;
+        color: #fff8ee;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding: 32px 18px;
+        background:
+          radial-gradient(circle at 16% 12%, rgba(255, 172, 206, 0.28), transparent 30rem),
+          radial-gradient(circle at 84% 88%, rgba(255, 204, 105, 0.22), transparent 28rem),
+          linear-gradient(145deg, #28142f, #120b1b 64%);
+      }
+
+      main {
+        width: min(100%, 1060px);
+        text-align: center;
+      }
+
+      .eyebrow {
+        margin: 0 0 10px;
+        color: #ffd897;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 6vw, 4.5rem);
+        line-height: 1;
+        letter-spacing: -0.045em;
+      }
+
+      .subtitle {
+        margin: 14px auto 28px;
+        color: #dacde0;
+        font-size: clamp(1rem, 2.5vw, 1.2rem);
+      }
+
+      .frame {
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.17);
+        border-radius: 22px;
+        background: #08060a;
+        box-shadow: 0 28px 80px rgba(0, 0, 0, 0.48);
+      }
+
+      video {
+        display: block;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        background: #000;
+      }
+
+      .hint {
+        margin: 18px 0 0;
+        color: #b9aabf;
+        font-size: 0.82rem;
+      }
+
+      a { color: #ffd897; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">A special collection of memories</p>
+      <h1>Anushka's Birthday</h1>
+      <p class="subtitle">All photos · Original montage</p>
+
+      <div class="frame">
+        <video controls playsinline preload="metadata" poster="media/poster.jpg">
+          <source src="media/anushka-birthday-montage.mp4" type="video/mp4" />
+          Your browser cannot play this video.
+          <a href="media/anushka-birthday-montage.mp4">Download the viewing copy</a> instead.
+        </video>
+      </div>
+
+      <p class="hint">Tip: tap the full-screen icon for the best viewing experience.</p>
+    </main>
+  </body>
+</html>
