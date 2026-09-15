@@ -1,16 +1,13 @@
 # Anushka Birthday Video
 
-This private repository stores the original birthday montage as a private
-GitHub Release asset and publishes a smaller browser-friendly viewing copy
-through GitHub Pages.
+Public viewing page for Anushka’s birthday montage:
 
-## Files
+https://animvsh.github.io/anushka-birthday-view/
 
-- The `Original Montage` private release contains the full-resolution original.
-- `media/anushka-birthday-montage.mp4` — optimized playback copy used by the
-  public viewing page.
-- `index.html` — the public video player.
+This repository contains only the browser-friendly playback copy and static
+video player. The full-resolution original is stored separately in a private
+archive.
 
-The public page includes `noindex` and `robots.txt` directives to discourage
+The page includes `noindex` and `robots.txt` directives to discourage
 search-engine indexing. These are not access controls: anyone with the public
 link can view or download the optimized copy.
