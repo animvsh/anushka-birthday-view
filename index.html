@@ -14,7 +14,7 @@
       type="image/svg+xml"
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='44' y='10' rx='12' fill='%23ff0033'/%3E%3Cpath d='m27 22 16 10-16 10Z' fill='white'/%3E%3C/svg%3E"
     />
-    <title>AnushkaTube</title>
+    <title>Anushka 21st Tube</title>
     <style>
       :root {
         color-scheme: dark;
@@ -462,9 +462,9 @@
 
     <header>
       <div class="header-inner">
-        <a class="brand" href="#top" aria-label="AnushkaTube home">
+        <a class="brand" href="#top" aria-label="Anushka 21st Tube home">
           <span class="brand-mark" aria-hidden="true"></span>
-          <span>AnushkaTube</span>
+          <span>Anushka 21st Tube</span>
         </a>
         <nav aria-label="Page navigation">
           <a href="#full-messages">Full messages</a>
@@ -498,7 +498,7 @@
       </section>
 
       <footer>
-        <p>AnushkaTube · Made for Anushka's birthday</p>
+        <p>Anushka 21st Tube · Made for Anushka's birthday</p>
       </footer>
       </div>
 
@@ -508,7 +508,7 @@
             <button class="back-to-videos" id="back-to-videos" type="button">← All videos</button>
             <div class="watch-player" id="watch-player"></div>
             <h1 class="watch-title" id="watch-title"></h1>
-            <p class="watch-meta">Full birthday message · AnushkaTube</p>
+            <p class="watch-meta">Full birthday message · Anushka 21st Tube</p>
           </article>
 
           <aside class="recommendations" aria-labelledby="recommendations-title">
@@ -527,7 +527,6 @@
         { name: "Kayla", youtubeUrl: "https://www.youtube.com/watch?v=yCffYpQdItY" },
         { name: "Ilana", youtubeUrl: "https://www.youtube.com/watch?v=23qbtzm93Pk" },
         { name: "Raina", youtubeUrl: "https://www.youtube.com/watch?v=Z7yQbtvrauQ" },
-        { name: "Shivam", youtubeUrl: "" },
         { name: "Vaishali", youtubeUrl: "" },
       ];
 
@@ -575,7 +574,7 @@
         watchPlayer.replaceChildren(iframe);
 
         watchTitle.textContent = `${selected.name}'s birthday message`;
-        document.title = `${selected.name} · AnushkaTube`;
+        document.title = `${selected.name} · Anushka 21st Tube`;
         recommendationList.replaceChildren();
 
         liveInterviews
@@ -597,7 +596,7 @@
 
             const copy = document.createElement("span");
             copy.className = "recommendation-copy";
-            copy.innerHTML = `<strong>${interview.name}'s birthday message</strong><span>AnushkaTube</span>`;
+            copy.innerHTML = `<strong>${interview.name}'s birthday message</strong><span>Anushka 21st Tube</span>`;
 
             recommendation.append(thumb, copy);
             recommendation.addEventListener("click", () => openWatchPage(interview.youtubeId));
@@ -614,7 +613,7 @@
         watchPlayer.replaceChildren();
         watchView.hidden = true;
         homeView.hidden = false;
-        document.title = "AnushkaTube";
+        document.title = "Anushka 21st Tube";
         if (updateHash) history.pushState(null, "", `#${anchor}`);
         requestAnimationFrame(() => {
           document.querySelector(`#${anchor}`)?.scrollIntoView();

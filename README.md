@@ -1,12 +1,12 @@
-# AnushkaTube
+# Anushka 21st Tube
 
 Public viewing page for Anushka’s birthday montage:
 
 https://animvsh.github.io/anushka-birthday-view/
 
 This repository contains the browser-friendly birthday film, a simple
-YouTube-inspired viewing page, five YouTube interview embeds, and coming-soon
-cards for Shivam and Vaishali. The full-resolution source archive is stored
+YouTube-inspired viewing page, five YouTube interview embeds, and a coming-soon
+card for Vaishali. The full-resolution source archive is stored
 separately in a private repository.
 
 Selecting an interview opens a dedicated watch page with a large YouTube
