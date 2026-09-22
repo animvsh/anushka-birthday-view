@@ -9,6 +9,9 @@ YouTube-inspired viewing page, five YouTube interview embeds, and coming-soon
 cards for Shivam and Vaishali. The full-resolution source archive is stored
 separately in a private repository.
 
+Selecting an interview opens a dedicated watch page with a large YouTube
+player and the other available messages in an Up next sidebar.
+
 To add an interview, paste its YouTube link into the matching `youtubeUrl`
 value in the `interviews` list near the bottom of `index.html`. Standard
 YouTube, `youtu.be`, Shorts, live, and embed links are supported.
