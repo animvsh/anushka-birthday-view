@@ -5,9 +5,8 @@ Public viewing page for Anushka’s birthday montage:
 https://animvsh.github.io/anushka-birthday-view/
 
 This repository contains the browser-friendly birthday film, a simple
-YouTube-inspired viewing page, five YouTube interview embeds, and a coming-soon
-card for Vaishali. The full-resolution source archive is stored
-separately in a private repository.
+YouTube-inspired viewing page, and six YouTube interview embeds. The
+full-resolution source archive is stored separately in a private repository.
 
 Selecting an interview opens a dedicated watch page with a large YouTube
 player and the other available messages in an Up next sidebar.
