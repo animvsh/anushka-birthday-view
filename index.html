@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex, nofollow, noarchive" />
-    <meta name="theme-color" content="#ffffff" />
+    <meta name="theme-color" content="#0f0f0f" />
     <meta
       name="description"
       content="Anushka's birthday film and full birthday messages."
@@ -17,15 +17,15 @@
     <title>AnushkaTube</title>
     <style>
       :root {
-        color-scheme: light;
+        color-scheme: dark;
         font-family: Arial, Helvetica, system-ui, sans-serif;
-        background: #fff;
-        color: #0f0f0f;
+        background: #0f0f0f;
+        color: #f1f1f1;
         --red: #ff0033;
-        --ink: #0f0f0f;
-        --muted: #606060;
-        --surface: #f2f2f2;
-        --line: #e5e5e5;
+        --ink: #f1f1f1;
+        --muted: #aaa;
+        --surface: #272727;
+        --line: #303030;
       }
 
       * { box-sizing: border-box; }
@@ -35,7 +35,7 @@
       body {
         min-height: 100vh;
         margin: 0;
-        background: #fff;
+        background: #0f0f0f;
         color: var(--ink);
       }
 
@@ -49,8 +49,8 @@
         z-index: 20;
         padding: 10px 14px;
         border-radius: 4px;
-        background: #000;
-        color: #fff;
+        background: #f1f1f1;
+        color: #0f0f0f;
         transform: translateY(-150%);
       }
 
@@ -60,13 +60,13 @@
         position: sticky;
         top: 0;
         z-index: 10;
-        border-bottom: 1px solid var(--line);
-        background: rgba(255, 255, 255, 0.96);
+        border-bottom: 1px solid #272727;
+        background: rgba(15, 15, 15, 0.98);
       }
 
       .header-inner {
         display: flex;
-        width: min(100% - 32px, 1120px);
+        width: min(100% - 32px, 1200px);
         min-height: 64px;
         margin: 0 auto;
         align-items: center;
@@ -114,9 +114,9 @@
       nav a:hover { color: var(--ink); }
 
       main {
-        width: min(100% - 32px, 1120px);
+        width: min(100% - 32px, 1200px);
         margin: 0 auto;
-        padding: 40px 0 64px;
+        padding: 32px 0 64px;
       }
 
       .featured-label {
@@ -135,9 +135,9 @@
 
       h1 {
         margin-bottom: 20px;
-        font-size: clamp(2rem, 5vw, 3.75rem);
-        line-height: 1;
-        letter-spacing: -0.05em;
+        font-size: clamp(1.8rem, 4vw, 2.7rem);
+        line-height: 1.08;
+        letter-spacing: -0.04em;
       }
 
       .main-player {
@@ -195,7 +195,8 @@
         aspect-ratio: 16 / 9;
         place-items: center;
         border-radius: 12px;
-        background: #181818;
+        border: 1px solid #272727;
+        background: #212121;
       }
 
       .interview-media iframe {
@@ -212,8 +213,9 @@
         height: 62px;
         place-items: center;
         border-radius: 50%;
-        background: #fff;
-        color: #111;
+        border: 1px solid #3f3f3f;
+        background: #272727;
+        color: #f1f1f1;
         font-size: 1.25rem;
         font-weight: 800;
       }
@@ -243,7 +245,7 @@
         font-weight: 700;
       }
 
-      .play-message:hover { background: rgba(255, 255, 255, 0.06); }
+      .play-message:hover { background: rgba(255, 255, 255, 0.08); }
 
       .interview-copy {
         display: flex;
@@ -278,8 +280,8 @@
       }
 
       .interview-card.is-live .status {
-        background: #ffe5eb;
-        color: #b00024;
+        background: rgba(255, 0, 51, 0.18);
+        color: #ff8099;
       }
 
       footer {
@@ -303,7 +305,7 @@
 
       @media (max-width: 560px) {
         .header-inner,
-        main { width: min(100% - 24px, 1120px); }
+        main { width: min(100% - 24px, 1200px); }
 
         nav { display: none; }
         main { padding-top: 28px; }
